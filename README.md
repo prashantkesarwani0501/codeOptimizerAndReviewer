@@ -33,4 +33,17 @@ This project aims to be a **developer companion**, helping both beginners and pr
 
 ---
 
-## 📂 Project Structure  
+## 📊 Example Workflow  
+1. Developer submits code (via CLI / API / Web UI)  
+2. Tool analyzes the code → generates **review comments & optimization report**  
+3. Suggestions are returned in **human-readable format** with examples  
+
+Example:  
+
+**Input Code (C++)**
+```cpp
+for(int i = 0; i < n; i++){
+    for(int j = 0; j < n; j++){
+        if(arr[i] == arr[j]) count++;
+    }
+}
